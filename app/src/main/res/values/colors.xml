@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="HeadingColor">#2E2654</color>
+    <color name="LightTextColor">#FFFFFF</color>
+    <color name="color1">#FF405C</color>
+    <color name="color2">#FF9D21</color>
+    <color name="color3">#5E5E5E</color>
+
+</resources>

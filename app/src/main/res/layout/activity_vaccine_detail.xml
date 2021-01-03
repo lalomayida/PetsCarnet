@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:padding="40dp"
+    tools:context=".VaccineDetail">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="Detalle de Vacuna"
+        android:textColor="@color/HeadingColor"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        >
+
+        <ImageView
+            android:id="@+id/iv_image"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:src="@mipmap/ic_launcher"
+            ></ImageView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_petName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Main Text"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:textColor="@android:color/black">
+            </TextView>
+
+
+        </LinearLayout>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nombre: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+    <TextView
+    android:id="@+id/tv_applicationDate"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Fecha: "
+    android:textStyle="bold"
+    android:textSize="20sp"
+    android:layout_margin="5dp"
+    android:textColor="@android:color/black">
+</TextView>
+
+    <TextView
+        android:id="@+id/tv_nextApplicationDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Próxima Vacuna: "
+        android:textColor="@color/color3"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:id="@+id/tv_laboratory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Laboratory: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:id="@+id/tv_doctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Doctor: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black">
+    </TextView>
+    <TextView
+        android:id="@+id/tv_comments"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Comenatios: "
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_margin="5dp"
+        android:textColor="@android:color/black">
+    </TextView>
+
+
+
+</LinearLayout>
